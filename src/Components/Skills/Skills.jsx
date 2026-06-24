@@ -16,10 +16,12 @@ export const Skills = () => {
             <p className="skills-p">React</p>
             <p className="skills-p">Node.js</p>
             <p className="skills-p">Express</p>
+            <p className="skills-p">Java</p>
           </div>
 
           <div className="text-box">
             <h2 className="skill-headline toolbox-headline">Toolbox</h2>
+            <p className="skills-p">MySQL</p>
             <p className="skills-p">MongoDB</p>
             <p className="skills-p">Netlify</p>
             <p className="skills-p">Render</p>
@@ -29,7 +31,7 @@ export const Skills = () => {
             <p className="skills-p">Figma</p>
           </div>
 
-            <div className="text-box">
+          <div className="text-box">
             <h2 className="skill-headline more-headline">More</h2>
             <p className="skills-p">Responsive design</p>
             <p className="skills-p">Accessibility</p>
@@ -39,11 +41,8 @@ export const Skills = () => {
 
           <div className="text-box">
             <h2 className="skill-headline upcoming-headline">Upcoming</h2>
-            <p className="skills-p">Java</p>
-            <p className="skills-p">Java Spring</p>
-            <p className="skills-p">SQL</p>
+            <p className="skills-p">Spring Boot</p>
           </div>
-
         </div>
       </div>
     </section>

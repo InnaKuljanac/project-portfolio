@@ -3,7 +3,7 @@ import "./Tech.css";
 
 export const Tech = () => {
   const skills =
-    "HTML, CSS, Flexbox, JavaScript, ES6, JSX, React, React Hooks, Node.js, Mongo DB, Web Accessibility, APIs, mob-programming, pair-programming, GitHub. ";
+    "HTML, CSS, Flexbox, Web Accessibility, JavaScript, ES6, React, JSX, React Hooks, Node.js, Express,  Java, Spring Boot, APIs, MySQL, MongoDB, Git, GitHub, pair-programming, mob-programming. ";
 
   return (
     <section className="tech-section">
