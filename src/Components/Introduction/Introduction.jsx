@@ -6,24 +6,16 @@ export const Introduction = () => {
   return (
     <section className="intro-section">
       <div className="info-wrapper">
-        <img
-          className="profile-pic"
-          src="/assets/profielNEW.JPG"
-          alt="Profile picture of Inna"
-        />
+        <img className="profile-pic" src="/assets/profielNEW.JPG" alt="Profile picture of Inna" />
         <div className="name-headline-wrapper">
-          <h3 className="my-name">Hi, I&apos;m Inna Kokic</h3>
+          <h3 className="my-name">Hi, I&apos;m Inna Kuljanac</h3>
           <h2 className="job-title">Frontend Developer</h2>
         </div>
         <p className="introText">{introText}</p>
       </div>
 
       <div className="arrow jump">
-        <img
-          className="vert-move"
-          src="/assets/Arrow.svg"
-          alt="down arrow icon"
-        />
+        <img className="vert-move" src="/assets/Arrow.svg" alt="down arrow icon" />
       </div>
     </section>
   );

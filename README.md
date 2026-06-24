@@ -1,12 +1,12 @@
 ## Author
 
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://inna-kokic-portfolio.netlify.app/)
-[![@InnaKokic](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/inna-kokic-a579b928a/)
-[![github](https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/InnaKokic)
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://inna-kuljanac.netlify.app/)
+[![@InnaKuljanac](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/inna-kuljanac-a579b928a/)
+[![github](https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/InnaKuljanac)
 
 ### Hi, I'm Inna! 👋
 
-Welcome to my first React portfolio project! I am Inna Kokic, a student who has completed Sprint 2 of the boot camp and is now taking my skills to the next level. This portfolio showcases my mastery of React concepts, implementing components, props, hooks, and web APIs to create a dynamic and interactive website.
+Welcome to my first React portfolio project! I am Inna Kuljanac, a student who has completed Sprint 2 of the boot camp and is now taking my skills to the next level. This portfolio showcases my mastery of React concepts, implementing components, props, hooks, and web APIs to create a dynamic and interactive website.
 
 By breaking down the project into reusable components and efficiently passing data with props, I've ensured a well-structured and organized codebase. Utilizing React hooks, particularly the useState hook, has allowed me to manage reactive data and create an engaging user experience.
 

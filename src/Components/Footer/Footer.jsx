@@ -5,8 +5,7 @@ export const Footer = () => {
     <section className="footer-section">
       <footer className="moving-text">
         <p className="footer-text">
-          Inna Kokic · Frontend Developer · Inna Kokic · Frontend Developer ·
-          Inna Kokic · Frontend Developer
+          Inna Kuljanac · Frontend Developer · Inna Kuljanac · Frontend Developer · Inna Kuljanac · Frontend Developer
         </p>
       </footer>
     </section>
