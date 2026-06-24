@@ -7,7 +7,7 @@ export const Contact = () => {
       <MainHeading className={"heading-text lets-talk"} text={"Let's Talk"} />
 
       <div className="contact-wrapper">
-        <img className="profile-pic" src="/assets/IMG_9270.jpeg" alt="Profile picture of Inna" />
+        <img className="profile-pic" src="/assets/profielNEW.JPG" alt="Profile picture of Inna" />
 
         <div className="contact-text">
           <p className="talk-text name">Inna Kuljanac</p>
