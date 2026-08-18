@@ -6,15 +6,12 @@ import repoImages from "./repoImages.json";
 export const FeaturedProjects = () => {
   const [repos, setRepos] = useState([]);
 
-  const defaultDescription = //Use if description in API is null or empty
-    "A React project showcasing various features and functionalities.";
+  const defaultDescription = "A React project showcasing various features and functionalities."; //Use if description in API is null or empty
 
   const formatRepoName = (name) => {
     // Split the name by hyphens and capitalize each word
     const words = name.split("-");
-    const capitalizedWords = words.map(
-      (word) => word.charAt(0).toUpperCase() + word.slice(1) 
-    );
+    const capitalizedWords = words.map((word) => word.charAt(0).toUpperCase() + word.slice(1));
 
     // Join the capitalized words with spaces
     return capitalizedWords.join(" ");
@@ -33,7 +30,7 @@ export const FeaturedProjects = () => {
 
   useEffect(() => {
     // Fetch data from the GitHub API
-    fetch("https://api.github.com/users/InnaKokic/repos")
+    fetch("https://api.github.com/users/InnaKuljanac/repos")
       .then((response) => response.json())
       .then((data) => {
         const formattedRepos = data
@@ -47,80 +44,52 @@ export const FeaturedProjects = () => {
             html_url: repo.html_url,
             description: repo.description || defaultDescription,
             imageUrl: getImageUrlForRepo(repo.name), // Fetch the image URL
-            liveLink: getLiveLinkRepo(repo.name)
+            liveLink: getLiveLinkRepo(repo.name),
           }));
-  
+
         setRepos(formattedRepos);
       })
       .catch((error) => console.error("Error fetching data:", error));
   }, []);
-  
 
   return (
     <section className="projects-section">
       <div className="projects-wrapper">
-        <MainHeading
-          className={"heading-text projects"}
-          text={"Featured Projects"}
-        />
+        <MainHeading className={"heading-text projects"} text={"Featured Projects"} />
 
         {repos.map((repo) => (
-          
-            <div className="projects-text-box" key={repo.name}>
-              <img
-                className="repo-image"
-                src={repo.imageUrl}
-                alt={`Image for ${repo.name}`}
-              />
-              <div className="all-text-wrapper">
-                <h3 className="repo-name">{repo.name}</h3>
+          <div className="projects-text-box" key={repo.name}>
+            <img className="repo-image" src={repo.imageUrl} alt={`Image for ${repo.name}`} />
+            <div className="all-text-wrapper">
+              <h3 className="repo-name">{repo.name}</h3>
 
-                <p className="repo-desc"> {repo.description} </p>
+              <p className="repo-desc"> {repo.description} </p>
 
-                <div className="topics-wrapper">
-                  {repo.topics.map((topic) => (
-                    <div className="topics" key={topic}>
-                      {topic}
-                    </div>
-                  ))}
+              <div className="topics-wrapper">
+                {repo.topics.map((topic) => (
+                  <div className="topics" key={topic}>
+                    {topic}
                   </div>
-              </div>
-
-              <div className="repo-button-wrapper">
-                <a
-                  className="button-text"
-                  href={repo.liveLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button className="icon-button live-demo-button">
-                    <img
-                      className="icon"
-                      src="/assets/Live Demo.svg"
-                      alt="live demo icon"
-                    />
-                    Live demo
-                  </button>
-                </a>
-
-                <a
-                className="button-text"
-                  href={repo.html_url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button className="icon-button github-button">
-                    <img
-                      className="icon"
-                      src="/assets/github.svg"
-                      alt="github icon"
-                    />
-                    View the code
-                  </button>
-                </a>
+                ))}
               </div>
             </div>
 
+            <div className="repo-button-wrapper">
+              <a className="button-text" href={repo.liveLink} target="_blank" rel="noopener noreferrer">
+                <button className="icon-button live-demo-button">
+                  <img className="icon" src="/assets/Live Demo.svg" alt="live demo icon" />
+                  Live demo
+                </button>
+              </a>
+
+              <a className="button-text" href={repo.html_url} target="_blank" rel="noopener noreferrer">
+                <button className="icon-button github-button">
+                  <img className="icon" src="/assets/github.svg" alt="github icon" />
+                  View the code
+                </button>
+              </a>
+            </div>
+          </div>
         ))}
       </div>
     </section>
