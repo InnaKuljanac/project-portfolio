@@ -31,7 +31,7 @@ export const Contact = () => {
           </a>
           <a
             className="icon-link linkedin-link"
-            href="www.linkedin.com/in/inna-kuljanac-a579b928a"
+            href="https://linkedin.com/in/inna-kuljanac-a579b928a"
             target="_blank"
             rel="noopener noreferrer">
             <img src="/assets/linkedinGrey.svg" alt="github icon" />
