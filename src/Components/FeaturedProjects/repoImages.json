@@ -1,10 +1,13 @@
 [
- 
-  
   {
     "repoName": "project-survey-vite",
     "imageUrl": "/assets/repoImages/survey.jpg",
     "repoLive": "https://willowy-meerkat-5ea81b.netlify.app/"
+  },
+  {
+    "repoName": "project-design-handoff-vite",
+    "imageUrl": "/assets/repoImages/handoff.png",
+    "repoLive": "https://galactic-fitness.netlify.app/"
   },
   {
     "repoName": "project-guess-who",
@@ -22,4 +25,3 @@
     "repoLive": "https://innas-qr-code-generator.netlify.app"
   }
 ]
-

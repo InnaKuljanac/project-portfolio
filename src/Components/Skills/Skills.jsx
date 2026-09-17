@@ -1,5 +1,5 @@
-import { MainHeading } from "../MainHeading/MainHeading";
-import "./Skills.css";
+import { MainHeading } from "../MainHeading/MainHeading"
+import "./Skills.css"
 
 export const Skills = () => {
   return (
@@ -12,7 +12,7 @@ export const Skills = () => {
             <h2 className="skill-headline code-headline">Code</h2>
             <p className="skills-p">HTML</p>
             <p className="skills-p">CSS3</p>
-            <p className="skills-p">Javascript</p>
+            <p className="skills-p">JavaScript</p>
             <p className="skills-p">React</p>
             <p className="skills-p">Node.js</p>
             <p className="skills-p">Express</p>
@@ -42,9 +42,11 @@ export const Skills = () => {
           <div className="text-box">
             <h2 className="skill-headline upcoming-headline">Upcoming</h2>
             <p className="skills-p">Spring Boot</p>
+            <p className="skills-p">TypeScript</p>
+            <p className="skills-p">Tailwind</p>
           </div>
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
